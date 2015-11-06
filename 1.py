@@ -1,7 +1,7 @@
 import scipy as sp
 import matplotlib.pyplot as plt
 
-data = sp.genfromtxt("C:\Users\Rybkin\Desktop\web_traffic.tsv", delimiter="\t")
+data = sp.genfromtxt("web_traffic.tsv", delimiter="\t")
 x = data[:,0]
 y = data[:,1]
 
